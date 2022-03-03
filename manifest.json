@@ -1,0 +1,19 @@
+{
+   "content_scripts": [
+      {
+         "js": [
+            "content.js"
+         ],
+         "matches": [
+            "http://www.dfe.ms.gov.br/nfce/consulta/resultadoconsulta"
+         ]
+      }
+   ],
+   "description": "Salva a NFCe em html simples",
+   "icons": {
+      "128": "nfe-min-1.png"
+   },
+   "manifest_version": 3,
+   "name": "Salvar NFCe",
+   "version": "0.1"
+}
