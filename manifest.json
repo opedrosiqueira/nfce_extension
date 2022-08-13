@@ -5,7 +5,15 @@
             "content_dfe_ms.js"
          ],
          "matches": [
-            "http://www.dfe.ms.gov.br/nfce/consulta/resultadoconsulta"
+            "*://www.dfe.ms.gov.br/nfce/consulta/resultadoconsulta"
+         ]
+      },
+      {
+         "js": [
+            "content_dfe_ms_inicial.js"
+         ],
+         "matches": [
+            "*://www.dfe.ms.gov.br/nfce/consulta/"
          ]
       },
       {
